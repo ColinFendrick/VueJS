@@ -26,3 +26,10 @@ VueJS creates a template based on HTML code, stores it locally, then renders DOM
 #### Don't use the v-html directive unless the source is sanitary. Cross-site scripting attacks
 
 We can access DOM information inside of the Vue instance itself (essentially sending information from DOM back to the Vue instance via DOM listeners)
+- This idea is further enhanced with the `$event` variable present in method calls in our HTML which can send event object down to the methods
+
+
+#### Modifiers
+- Called after `v:on[arg].modifier`
+- `.stop` is important to prevent propogation (is the same as `stopPropogation()` from event object)
+- also `.prevent` is `preventDefault()`
