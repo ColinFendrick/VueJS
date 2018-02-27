@@ -21,5 +21,6 @@ VueJS creates a template based on HTML code, stores it locally, then renders DOM
 ### Directives:
 - Directives are instructions are to do something lol.
 - For example, `vbind:[arg]` will bind the arg of the html element to the Vue instance data, so we can send dynamic data to HTML elements
+- `v-on:[arg]` listens to an argument to listen to DOM events (click, mouseenter, hover, etc)
 
 #### Don't use the v-html directive unless the source is sanitary. Cross-site scripting attacks
