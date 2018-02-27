@@ -3,5 +3,12 @@
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 
 <div id="app">
-	<p>{{ title }}</p>
+	<!--Once directive will keep the data the same after initiall call, rather than having it dynamically changes-->
+	<h1 v-once>{{ title }}</h1>
+	<!--Can execute function to return some DOM-usable value-->
+	<p>{{ sayHello() }}</p>
+	<!--Have to dynamically bind html properties-->
+	<a href="" v-bind:href="link">Google</a>
+	<!--To output HTML instead of the raw text from Vue instance-->
+	<p v-html>{{ finishedLink }}</p>
 </div>
