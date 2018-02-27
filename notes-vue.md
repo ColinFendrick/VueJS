@@ -24,3 +24,5 @@ VueJS creates a template based on HTML code, stores it locally, then renders DOM
 - `v-on:[arg]` listens to an argument to listen to DOM events (click, mouseenter, hover, etc)
 
 #### Don't use the v-html directive unless the source is sanitary. Cross-site scripting attacks
+
+We can access DOM information inside of the Vue instance itself (essentially sending information from DOM back to the Vue instance via DOM listeners)
