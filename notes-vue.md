@@ -33,3 +33,15 @@ We can access DOM information inside of the Vue instance itself (essentially sen
 - Called after `v:on[arg].modifier`
 - `.stop` is important to prevent propogation (is the same as `stopPropogation()` from event object)
 - also `.prevent` is `preventDefault()`
+
+Here’s the full list of key modifier aliases:
+
+- .enter
+- .tab
+- .delete (captures both “Delete” and “Backspace” keys)
+- .esc
+- .space
+- .up
+- .down
+- .left
+- .right

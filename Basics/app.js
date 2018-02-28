@@ -12,6 +12,9 @@ new Vue({
 			// return "Hello";
 			this.title = "Hello";
 			return this.title;
+		},
+		alertMe: function() {
+			alert("sent!");
 		}
 	}
 });
