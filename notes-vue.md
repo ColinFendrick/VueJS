@@ -53,3 +53,9 @@ Use `v-model` syntax to bind data both ways
 Use the computed output to get calculated data.
 - Computed is used like a data object (not an invoked function)
 - Computed properties analyzes code and only recalculates as needed
+
+### Watch Object
+Set up a property to watch (from `data`)
+
+Vue JS sends the value of the watched data piece to the function in the watch object.
+This is mostly used for async tasks.
