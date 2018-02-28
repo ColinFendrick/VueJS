@@ -45,3 +45,6 @@ Here’s the full list of key modifier aliases:
 - .down
 - .left
 - .right
+
+### Two-way Binding
+Use `v-model` syntax to bind data both ways
