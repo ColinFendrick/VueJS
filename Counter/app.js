@@ -6,7 +6,7 @@ new Vue({
 		y: 0
 	},
 	methods: {
-		increase: function(step, event) {
+		increase: function(step) {
 			this.counter += step;
 		},
 		updateCoordinates: function(event) {
