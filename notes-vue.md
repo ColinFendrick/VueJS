@@ -48,3 +48,8 @@ Here’s the full list of key modifier aliases:
 
 ### Two-way Binding
 Use `v-model` syntax to bind data both ways
+
+### Computed object
+Use the computed output to get calculated data.
+- Computed is used like a data object (not an invoked function)
+- Computed properties analyzes code and only recalculates as needed

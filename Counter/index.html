@@ -8,6 +8,10 @@
     <span v-on:mousemove.stop="">DEAD SPOT</span>
   </p>
   <input type="text" v-on:keyup.enter="alertme">
+  <button v-on:click="counter++">Increase</button>
+  <button v-on:click="counter--">Decrease</button>
+  <p>Counter: {{ counter }}</p>
+  <p>Result: {{ output }}</p>
 </div>
 
 <script src="app.js"></script>
