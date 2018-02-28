@@ -1,15 +1,15 @@
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 
 <div id="app">
-  <button v-on:click="increase(2, $event)">Click me already</button>
+  <button @click="increase(2, $event)">Click me already</button>
   <p>{{ counter }}</p>
-  <p v-on:mousemove="updateCoordinates">
+  <p @mousemove="updateCoordinates">
     Coordinates: {{ x }} {{ y }}
-    <span v-on:mousemove.stop="">DEAD SPOT</span>
+    <span @mousemove.stop="">DEAD SPOT</span>
   </p>
-  <input type="text" v-on:keyup.enter="alertme">
-  <button v-on:click="counter++">Increase</button>
-  <button v-on:click="counter--">Decrease</button>
+  <input type="text" @keyup.enter="alertme">
+  <button @click="counter++">Increase</button>
+  <button @click="counter--">Decrease</button>
   <p>Counter: {{ counter }}</p>
   <p>Result: {{ output }}</p>
 </div>

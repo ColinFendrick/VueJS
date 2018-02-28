@@ -59,3 +59,7 @@ Set up a property to watch (from `data`)
 
 Vue JS sends the value of the watched data piece to the function in the watch object.
 This is mostly used for async tasks.
+
+### Shorthand syntax
+- `@` `===` `v-on:`
+- `:` `===` `v-bind`
